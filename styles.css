@@ -1,3 +1,25 @@
-.w3-image.startImg {
+#home {
+  padding-bottom: 10%;
+}
 
+#projects {
+  padding-bottom: 15%;
+}
+
+
+.w3-col.l3.m6.w3-margin-bottom {
+  padding: 1%;
+}
+
+footer {
+  text-align: center;
+}
+
+.socials {
+  font-size: 5rem;
+  padding: 1%;
+}
+
+.w3-container.w3-black {
+  padding: 2%;
 }
