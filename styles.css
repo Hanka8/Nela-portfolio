@@ -6,6 +6,9 @@
   padding-bottom: 15%;
 }
 
+h2 {
+  text-align: center;
+}
 
 .w3-col.l3.m6.w3-margin-bottom {
   padding: 1%;
@@ -23,3 +26,17 @@ footer {
 .w3-container.w3-black {
   padding: 2%;
 }
+
+.imageFull {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.modalsHead, .modalsText {
+  text-align: center;
+}
+
+.aboutMe {
+  border-style: solid;
+}
+
