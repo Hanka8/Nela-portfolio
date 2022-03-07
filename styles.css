@@ -1,3 +1,13 @@
+#intro {
+  background-image: url(images/background.jpg);
+  height: 750px;
+  background-size: contain;
+}
+
+.name {
+  margin-top: 120px;
+}
+
 .startImg {
   width: 100%;
 }
@@ -7,7 +17,7 @@
 }
 
 #projects {
-  margin-top: 15%;
+  padding-top: 0 !important;
   padding-bottom: 15%;
 }
 
@@ -55,11 +65,6 @@ footer {
   text-align: center;
 }
 
-.nelaImg {
-  border: 1px solid;
-  box-shadow: 10px 10px black, 20px 20px grey, 30px 30px #DADADA;
-}
-
 .oneWindow {
 
 }
@@ -67,7 +72,15 @@ footer {
 
 
 @media (max-width: 992px) {
-  .navbar {
+  #navbar {
     font-size: 2rem ;
+  }
+  #intro {
+    background-image: url(images/background-mobile.jpg);
+    height: 1800px;
+    background-size: cover;
+  }
+  .name {
+    margin-top: 400px;
   }
 }
