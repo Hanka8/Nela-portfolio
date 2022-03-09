@@ -1,11 +1,15 @@
 #intro {
-  background-image: url(images/background.jpg);
+  background-image: url(skici/skica4.jpg);
   height: 750px;
   background-size: contain;
 }
 
+.panel {
+  background-color: white;
+}
+
 .name {
-  margin-top: 120px;
+  margin-top: 180px;
 }
 
 .startImg {
@@ -21,7 +25,9 @@
   padding-bottom: 15%;
 }
 
-
+.life {
+  padding-top: 150px;
+}
 
 h2 {
   font-family: Verdana;
@@ -76,7 +82,7 @@ footer {
     font-size: 2rem ;
   }
   #intro {
-    background-image: url(images/background-mobile.jpg);
+
     height: 1800px;
     background-size: cover;
   }
